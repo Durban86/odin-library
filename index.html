@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Script</title>
+    <title>The Odin Project - Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>YOUR LIBRARY</h1>
+        </header>
+        
+        <form id="new-book-form">
+            <input type="text" name="title" id="title" placeholder="Enter Book Title">
+            <input type="text" name="author" id="author" placeholder="Enter Author">
+            <input type="number" name="pages" id="pages" placeholder="Enter # of Pages">
+            <label for="read"><input type="checkbox" id="read">I have read this book</label>
+            <button id="add">Add Book</button>
+        </form>
+        
+        
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Pages</th>
+                        <th>Read?</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>sample</td>
+                        <td>sample</td>
+                        <td>sample</td>
+                        <td>sample</td>
+                        <td>sample</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
 
 <script src="script.js"></script>
 </body>
