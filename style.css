@@ -115,3 +115,11 @@ th {
 td {
     color: #1BA098;
 }
+
+.deleteBtn {
+    padding: .25rem 2rem;
+    font-size: 20px;
+    background-color: #051622;
+    color: #DEB992;
+    border: 3px solid #DEB992;
+}

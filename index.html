@@ -13,15 +13,13 @@
             <h1>YOUR LIBRARY</h1>
         </header>
         
-        <form id="new-book-form">
-            <input type="text" name="title" id="title" placeholder="Enter Book Title">
-            <input type="text" name="author" id="author" placeholder="Enter Author">
-            <input type="number" name="pages" id="pages" placeholder="Enter # of Pages">
+        <form id="new-book-form" action="">
+            <input type="text" name="title" id="title" placeholder="Enter Book Title" required>
+            <input type="text" name="author" id="author" placeholder="Enter Author" required>
+            <input type="number" name="pages" id="pages" placeholder="Enter # of Pages" required>
             <label for="read"><input type="checkbox" id="read">I have read this book</label>
-            <button id="add">Add Book</button>
+            <button type="submit" id="add">Add Book</button>
         </form>
-        
-        
         <main>
             <table>
                 <thead>
@@ -33,14 +31,8 @@
                         <th>Remove</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>sample</td>
-                        <td>sample</td>
-                        <td>sample</td>
-                        <td>sample</td>
-                        <td>sample</td>
-                    </tr>
+                <tbody id="table-body">
+                    
                 </tbody>
             </table>
         </main>
